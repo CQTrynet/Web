@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>EffectGets</servlet-name>
+    <servlet-class>com.servlet.EffectGets</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SeriesGet</servlet-name>
+    <servlet-class>com.servlet.SeriesGet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductTypeGet</servlet-name>
+    <servlet-class>com.servlet.ProductTypeGet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductIdGet</servlet-name>
+    <servlet-class>com.servlet.ProductIdGet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductByEffectId</servlet-name>
+    <servlet-class>com.servlet.ProductByEffectId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductByTypeId</servlet-name>
+    <servlet-class>com.servlet.ProductByTypeId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductBySeriesId</servlet-name>
+    <servlet-class>com.servlet.ProductBySeriesId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductByName</servlet-name>
+    <servlet-class>com.servlet.ProductByName</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>EffectGets</servlet-name>
+    <url-pattern>/effectGets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeriesGet</servlet-name>
+    <url-pattern>/seriesGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductTypeGet</servlet-name>
+    <url-pattern>/productTypeGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductIdGet</servlet-name>
+    <url-pattern>/productIdGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductByEffectId</servlet-name>
+    <url-pattern>/productByEffectId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductByTypeId</servlet-name>
+    <url-pattern>/productByTypeId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductBySeriesId</servlet-name>
+    <url-pattern>/productBySeriesId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductByName</servlet-name>
+    <url-pattern>/productByName</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>productByName</welcome-file>
+  </welcome-file-list>
+</web-app>
