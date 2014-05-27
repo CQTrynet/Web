@@ -12,10 +12,9 @@
 	</head>
 
 	<body>
-		<c:forEach items="${products}" var="e">
+		<c:forEach items="${effects}" var="e">
 			${e.id}<br/>
 			${e.name}<br/>
-			${e.series.id}<br/><br/>
 		</c:forEach>
 		<!--
 		${product.id}

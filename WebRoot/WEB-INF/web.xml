@@ -78,6 +78,6 @@
   </servlet-mapping>
   
   <welcome-file-list>
-    <welcome-file>productByName</welcome-file>
+    <welcome-file>effectGets</welcome-file>
   </welcome-file-list>
 </web-app>
